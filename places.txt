@@ -1,0 +1,3 @@
+;;; -*- coding: utf-8 -*-
+
+(("/Applications/Emacs22.app/Contents/Resources/lisp/international/mule.el" . 1485) ("/Applications/Emacs22.app/Contents/Resources/lisp/subr.el" . 42403) ("/Users/hiroaki-y/.revive.el" . 1014))

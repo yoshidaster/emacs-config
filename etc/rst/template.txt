@@ -1,0 +1,23 @@
+%(head_prefix)s
+%(head)s
+<link rel="stylesheet" href="../../style.css" type="text/css" />
+<link rel="stylesheet" href="../../sourcecode.css" type="text/css" />
+</head>
+<body>
+<div id="rap">
+<div id="content" class="hfeed">
+<div class="hentry">
+<div id="titleheader">
+<div id="headerleft">
+%(title)s
+</div><!-- end headerleft -->
+</div><!-- end titleheader -->
+<div class="storywrap">
+<div class="storycontent entry-content">
+%(body)s
+</div><!-- end storycontent -->
+</div><!-- end storywrap -->
+</div><!-- end hentry -->
+</div>
+<!-- begin footer -->
+%(body_suffix)s

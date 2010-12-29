@@ -1,0 +1,15 @@
+%(head_prefix)s
+%(head)s
+%(stylesheet)s
+%(body_prefix)s
+%(body_pre_docinfo)s
+%(docinfo)s
+%(body)s
+
+<br />
+以下コピペ用<br />
+<input type="text" value="%(title)s">
+<textarea rows="30" cols="100">
+%(body)s
+</textarea>
+%(body_suffix)s

@@ -1,0 +1,9 @@
+url
+auto-save-list
+anything-c-adaptive-history
+.DS_Store
+*.elc
+\#*
+._*
+var/*
+

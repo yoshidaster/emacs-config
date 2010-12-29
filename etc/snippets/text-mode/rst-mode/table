@@ -1,0 +1,9 @@
+#contributor : sakito
+#name : table
+# expand-env: ((yas/indent-line 'fixed))
+# --
+.. csv-table:: $1
+   :header: "", "", ""
+   :widths: 15, 10, 30
+
+   "", "", ""
