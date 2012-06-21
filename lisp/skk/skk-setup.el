@@ -40,9 +40,9 @@
 (global-set-key "\C-xt" 'skk-tutorial)
 
 ;;; Dictionaries.
-(defvar skk-large-jisyo "/Users/hiroaki-y/.emacs.d/share/skk/SKK-JISYO.L")
-(defvar skk-aux-large-jisyo "/Users/hiroaki-y/.emacs.d/share/skk/SKK-JISYO.L")
-(defvar skk-tut-file "/Users/hiroaki-y/.emacs.d/share/skk/SKK.tut")
+(defvar skk-large-jisyo "~/.emacs.d/share/skk/SKK-JISYO.L")
+(defvar skk-aux-large-jisyo "~/.emacs.d/share/skk/SKK-JISYO.L")
+(defvar skk-tut-file "~/.emacs.d/share/skk/SKK.tut")
 
 ;;; Isearch setting.
 (add-hook 'isearch-mode-hook
