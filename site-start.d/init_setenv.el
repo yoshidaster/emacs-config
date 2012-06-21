@@ -7,7 +7,7 @@
 ;; Mac OS X の bash の PATH は /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:
 ;; 多数の実行環境にて極力汎用的にパスが設定されるようしたい
 (dolist (dir (list
-               "/Users/hiroaki-y/perl5/perlbrew/bin"
+               "~/perl5/perlbrew/bin"
                "/sbin"
                "/usr/sbin"
                "/bin"

@@ -91,10 +91,10 @@
   ;; (setq ns-command-modifier (quote meta))
 
   ;; 起動したら US にする
-  (add-hook 'after-init-hook 'mac-change-language-to-us)
+  ; (add-hook 'after-init-hook 'mac-change-language-to-us)
   ;; minibuffer 内は US にする
-  (add-hook 'minibuffer-setup-hook 'mac-change-language-to-us)
-  (mac-translate-from-yen-to-backslash)
+  ; (add-hook 'minibuffer-setup-hook 'mac-change-language-to-us)
+  ; (mac-translate-from-yen-to-backslash)
   ;; 入力モードを英語に変更
   (setq mac-ts-script-language-on-focus '(0 . 0))
 )
