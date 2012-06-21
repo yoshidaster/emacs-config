@@ -201,7 +201,7 @@
 ;; emacsclient終了する時にTerminalへ
 (add-hook 'server-done-hook
           (lambda ()
-            (do-applescript "tell application \"Terminal.app\"
+            (do-applescript "tell application \"iTerm.app\"
                                 activate
                              end")))
 

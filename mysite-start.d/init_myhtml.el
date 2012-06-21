@@ -27,5 +27,17 @@
 (setq html-tt-sequence-start "[% ")
 (setq html-tt-sequence-end " %]")
 
+(defun my-html-helper-mode-hook-func ()
+  "Hook function for html-helper-mode"
+  (interactive)
+  (font-lock-mode 1)
+  ;; C-cC-pd inserts "<div></div>"
+  (html-helper-add-tag
+   '(phys "d" "<div>" "div" ("<div>" 'r "</div>\n") "Div tag"))
+  ;; Disable Fontifying... message
+  (setq html-helper-verbose nil))
+
+(add-hook 'html-helper-mode-hook 'my-html-helper-mode-hook-func)
+
 (provide 'init_myhtml)
 ;;; init_html.el ends here
